@@ -3,19 +3,19 @@
     display: flex;
     text-align: left;
     flex-direction: column;
-    align-items: center;
+
     @media screen and (min-width: 768px) {
       flex-direction: row;
       align-items: center;
+      text-align: left;
     }
   }
 
   &__text {
     font-size: 1em;
-    line-height: 19.5px;
+    line-height: 1.1em;
   }
-  &__picture-container {
-  }
+
   // &__picture-container {
   //   list-style: none;
   //   width: 288px;
