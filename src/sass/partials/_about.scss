@@ -1,12 +1,34 @@
 .about {
   &__product {
     display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+    }
   }
 
   &__text {
-    align-items: left;
-    font-weight: 400px;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 19.5px;
   }
+  &__picture-container {
+  }
+  // &__picture-container {
+  //   list-style: none;
+  //   width: 288px;
+  //   height: 174px;
+  //   @media screen and (min-width: 768px) {
+  //     width: 344px;
+  //     height: 217px;
+  //     display: none;
+  //   }
+  //   @media screen and (min-width: 1024px) {
+  //     width: 632px;
+  //     height: 344px;
+  //     display: none;
+  //   }
+  // }
 }
