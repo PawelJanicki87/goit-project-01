@@ -7,15 +7,20 @@
     @media screen and (min-width: 768px) {
       flex-direction: row;
       align-items: center;
-      text-align: left;
+      text-align: start;
     }
   }
 
   &__text {
     font-size: 1em;
     line-height: 1.1em;
-  }
 
+    @media screen and (min-width: 768px) {
+      height: 168px;
+      padding-right: 40px;
+      align-items: center;
+    }
+  }
   // &__picture-container {
   //   list-style: none;
   //   width: 288px;
